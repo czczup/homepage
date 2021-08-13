@@ -2,70 +2,78 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
+name: Zhe Chen (陈喆)
 profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
-  - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
-
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+    link: https://github.com/czczup
+  - title: email
+    icon: "/icons/email.svg"
+    link: 'mailto:wztxy89[at]163.com'
+    
+cv: /pdf/cv.pdf
+bio: M.S. Student at Nanjing University
+email: chenzhe98@smail.nju.edu.cn
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+I am an M.S. student in Department of Computer Science and Technology, Nanjing University (NJU) since 2020, supervised by [Prof. Tong Lu](https://cs.nju.edu.cn/lutong/). 
+I received my bachelor degree from School of Information and Electronic Engineering, Zhejiang University of Science and Technology (ZUST) in 2020.
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
-
+My research interests are computer vision and deep learning. I did some works about semantic segmentation, object detection, and neural style transfer.
 
 ## News
-
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
+- [2021-03-23] Code of URST is released at [here](https://github.com/czczup/URST).
+- [2020-12-21] Our team wins the champion of [NAIC 2020 Remote Sensing Semantic Segmentation Task (1,000,000 RMB bonus)](https://cs.nju.edu.cn/b8/d5/c1654a506069/page.htm).
+- [2020-09-01] Attended Nanjing University.
+- [2020-05-12] [SiameseCCR](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/iet-ipr.2019.0618) is accepted by IET Image Processing.
 
 
 ## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+- **Nanjing University, Nanjing, China** <br/>
+Sept 2020 - Present
 
+- **Zhejiang University of Science and Technology, Zhejiang, China** <br/>
+Sept 2016 - June 2020
+  
 
-## Projects
+## Publications
 
 
 [→ Full list](/projects/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<ProjectCard image="/projects/urst.jpg" hideBorder=true>
 
-  **The Making of Harry Potter's Wand**
+  **Towards Ultra-Resolution Neural Style Transfer via Thumbnail Instance Normalization**
 
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+  **Zhe Chen**, Wenhai Wang, Enze Xie, Tong Lu*, Ping Luo
+
+  Technical Report, 2021
+
+  Introduction: URST is a versatile framework for ultra-high resolution style transfer under limited memory resources.
+
+  [[Paper](https://arxiv.org/pdf/2103.11784.pdf)] [[Code](https://github.com/czczup/URST)] [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:zSy0_gpYt8kJ:scholar.google.com/&output=citation&scisdr=CgWsKTJqEI--3pFKW-0:AAGBfm0AAAAAYRZMQ-2DcnfFNGEUcu-921CU2wM94yAh&scisig=AAGBfm0AAAAAYRZMQ9HRcai2t7C_-IJwTRtcfi0nGhM3&scisf=4&ct=citation&cd=-1&hl=en)]
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true>
 
-  **Harry Potter and the Deathly Hallows**
+<ProjectCard image="/projects/siamese_ccr.jpg" hideBorder=true>
+
+  **SiameseCCR: A Novel Method for One-shot and Few-shot Chinese CAPTCHA Recognition using Deep Siamese Network**
+
+  **Zhe Chen**, Weifeng Ma*, Nanfan Xu, Caoting Ji, Yulai Zhang
+
+  IET Image Processing, 2020 (SCI Impact Factor: 2.373)
+
+  Introduction: We proposed a Siamese network-based method for one-shot and few-shot Chinese CAPTCHA Recognition.
   
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-  [[Link](https://www.google.com)]
+  [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/epdf/10.1049/iet-ipr.2019.0618)] [[Code](https://github.com/czczup/SiameseCCR)] [[BibTex](https://scholar.googleusercontent.com/scholar.bib?q=info:hVCGrrz8xRsJ:scholar.google.com/&output=citation&scisdr=CgWsKTJqEI--3pE3THQ:AAGBfm0AAAAAYRYxVHTzAjddCP8F0tyu_UdKM-B0A000&scisig=AAGBfm0AAAAAYRYxVP9qCL6gz6H73X7DO9RR3GsU2o6v&scisf=4&ct=citation&cd=-1&hl=en)]
 
 </ProjectCard>
 
@@ -74,8 +82,13 @@ Sept 1991 - 1997
 
 ### Contests
 
-- First place in **The Hogwarts House Cup**
-
+- The 2nd National Artificial Intelligence Challenge (NAIC), Remote Sensing Semantic Segmentation Task, 2020, [**1st Place**](https://cs.nju.edu.cn/b8/d5/c1654a506069/page.htm) **(1,000,000 RMB Bonus)**.
+- The 2nd China Gaofen Cup Beautiful Countryside Competition, Remote Sensing Crop Classification Task, 2019, [**3rd Prize**](https://yjs.zust.edu.cn/info/1035/2176.htm) **(5,000 RMB Bonus)**.
+- The 9th National Undergraduate E-commerce "Innovation, Creativity and Entrepreneurship" Challenge, Zhejiang Division, 2019, [**1rd Prize**](https://sem.zust.edu.cn/info/1103/1713.htm).
+- The 9nd National Undergraduate Service Outsourcing Competition, Captcha Recognition Task, 2018, **2rd Prize**.
+### Honors
+- Outstanding Graduate of Zhejiang Province
+- Zhejiang Provincial Government Scholarship
 
 <!-- Custom style for this page -->
 

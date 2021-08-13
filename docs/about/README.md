@@ -2,31 +2,28 @@
 pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
-head: 'Harry Potter'
-info: 'Student at Hogwarts School'
-interests: 'Interests: Quidditch and Wizard chess.'
+head: 'Zhe Chen'
+info: 'M.S. Student at Nanjing University'
+interests: 'Research Interests: Computer Vision and Deep Learning.'
 socials:
 - title: github
-  link: https://github.com/mtobeiyf
-- title: linkedin
-  link: https://www.linkedin.com
-- title: instagram
-  link: https://www.instagram.com
+  link: https://github.com/czczup
 - title: email
-  link: 'mailto:harry[at]gmail.com'
+  link: 'mailto:wztxy89[at]163.com'
 actions:
 - text: Projects
   link: /projects/
 - text: Blog
-  link: https://github.com/mtobeiyf
+  link: https://github.com/czczup
 - text: CV
-  link: /article/
+  link: /pdf/cv.pdf
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+I am an M.S. student in Department of Computer Science and Technology, Nanjing University (NJU) since 2020, supervised by [Prof. Tong Lu](https://cs.nju.edu.cn/lutong/). 
+I received my bachelor degree from School of Information and Electronic Engineering, Zhejiang University of Science and Technology (ZUST) in 2020.
 
 </AboutCard>
 
